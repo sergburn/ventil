@@ -1,3 +1,8 @@
+// Copyright (c) 2018 Sergey Burnevsky (sergey.burnevsky @ gmail.com)
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 #include "web.h"
 #include "cred.h"
 
@@ -14,7 +19,7 @@ Web::Web(int port) :
 void Web::begin()
 {
     mWebServer.on("/schedules", [this]() { onGetSchedules(); });
-    mWebServer.on("/schedule", HTTP_POST, [this]() { Web::onPostSchedule(); } );
+    mWebServer.on("/schedule", HTTP_POST, [this]() { Web::onPostSchedule(); });
     mWebServer.begin();
 }
 

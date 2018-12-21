@@ -1,3 +1,8 @@
+// Copyright (c) 2018 Sergey Burnevsky (sergey.burnevsky @ gmail.com)
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 #pragma once
 
 #include <ESP8266WebServer.h>

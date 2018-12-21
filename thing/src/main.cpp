@@ -1,3 +1,8 @@
+// Copyright (c) 2018 Sergey Burnevsky (sergey.burnevsky @ gmail.com)
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include <NTPClient.h>
