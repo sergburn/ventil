@@ -1,0 +1,3 @@
+[submodule "thing/lib/cron"]
+	path = thing/lib/cron
+	url = git@github.com:sergburn/croncalc.git
